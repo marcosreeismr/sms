@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Aluno extends CI_Controller
-{
+{//teste
 
     /**
      * Index Page for this controller.
@@ -22,6 +22,7 @@ class Aluno extends CI_Controller
      */
     public function __construct()
     {
+        //hue
         parent::__construct();
         $this->load->model('M_aluno');
     }
